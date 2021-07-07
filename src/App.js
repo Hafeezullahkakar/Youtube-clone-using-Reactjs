@@ -1,14 +1,15 @@
 import './App.css';
 import Header from './Components/Header';
+import Sidebar from './Components/Sidebar'
+import RecommendedVideos from './Components/RecommendedVideos';
 function App() {
   return (
     <div className="app">
-      <h1>Youtube clone ✨🪄🚀</h1>
-
-
        <Header />
-       {/* Sidebar */}
-       {/* RecommendedVideos */}
+       <div className='app__page'>
+       <Sidebar/>
+      < RecommendedVideos />
+       </div>
 
     </div>
   );
