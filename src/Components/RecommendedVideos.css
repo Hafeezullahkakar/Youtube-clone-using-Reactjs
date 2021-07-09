@@ -10,3 +10,8 @@
     margin-bottom: 20px;
     
 }
+.Recommended__Videos{
+    display: flex;
+    flex-wrap: wrap ;
+
+}
